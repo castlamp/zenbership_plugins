@@ -1,0 +1,12 @@
+
+
+MEMBER DIRECTORY PLUGIN README
+
+1. Upload everything to the "custom/plugins/member_directory" folder.
+
+2. Go to the admin control panel and click on "INTEGRATION > PLUGINS > Run Installer".
+
+3. Routes will be created in the database as follows:
+
+/directory/(username)	-> /member_directory/listing.php
+/directory		-> /member_directory/list.php
